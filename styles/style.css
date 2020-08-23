@@ -10,9 +10,12 @@ html, body {
 }
 
 nav {
+    position: sticky;
+    top: 0;
     background-color: lightgray;
     height: 5rem;
     color: black;
+    display: flex;
 }
 
 nav ul {
@@ -23,9 +26,10 @@ nav ul {
 }
 
 nav ul li a {
-    font-size: 2rem;
+    font-size: 1.1rem;
     text-decoration: none;
     text-transform: uppercase;
+    color: #333;
 }
 
 section {
