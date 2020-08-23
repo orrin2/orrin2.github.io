@@ -34,6 +34,11 @@ nav ul li a {
     color: #333;
 }
 
+
+img {
+    max-width: 100%;
+    height: auto;
+}
 /*Section styles*/
 section {
     height: 50rem;
