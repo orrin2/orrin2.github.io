@@ -28,3 +28,14 @@ nav ul li a {
     text-transform: uppercase;
 }
 
+section {
+    height: 50rem;
+}
+
+section#home {
+    background: url("../images/computer.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
