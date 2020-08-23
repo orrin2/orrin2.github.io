@@ -9,6 +9,7 @@ html, body {
     color: white;
 }
 
+/*Nav Styles*/
 nav {
     position: sticky;
     top: 0;
@@ -32,14 +33,27 @@ nav ul li a {
     color: #333;
 }
 
+/*Section styles*/
 section {
     height: 50rem;
 }
 
 section#home {
-    background: url("../images/computer.webp");
+    background: lightslategray, url("../images/computer.webp");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+section#about {
+    background: #333;
+}
+
+section#portfolio {
+    background: lightslategray;
+}
+
+section#contact {
+    background: #333;
 }
 
