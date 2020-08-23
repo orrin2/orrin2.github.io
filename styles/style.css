@@ -39,7 +39,7 @@ section {
 }
 
 section#home {
-    background: rgb(119, 136, 153, 0.5), url("../images/computer.webp");
+    background: url("../images/computer.webp");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -56,4 +56,12 @@ section#portfolio {
 section#contact {
     background: #333;
 }
+
+/*Footer Styles*/
+footer {
+    height: 10rem;
+    background: lightslategray;
+}
+
+
 
