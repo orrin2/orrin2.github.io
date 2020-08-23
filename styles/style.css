@@ -39,7 +39,7 @@ section {
 }
 
 section#home {
-    background: lightslategray, url("../images/computer.webp");
+    background: rgb(119, 136, 153, 0.5), url("../images/computer.webp");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
