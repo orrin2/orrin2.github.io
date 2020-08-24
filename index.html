@@ -2,69 +2,253 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Orrin's Portfolio</title>
+        <title>Orrin's Mock Portfolio</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="author" content="Orrin">
         <meta name="description" content="Orrin's Portfolio">
         <meta name="keywords" content="Portfolio">
-        <link rel="stylesheet" href="styles/style.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
     </head>
     <body>
         <nav>
-            <h1>Orrin H.</h1>
+            <h1>Orrin H</h1>
             <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#home" title="Home" target="_self">Home</a></li>
+                <li><a href="#portfolio" title="Portfolio" target="_self">Portfolio</a></li>
+                <li><a href="#contact" title="Contact" target="_self">Contact</a></li>
             </ul>
         </nav>
         <main>
             <section id="home">
-                <h2>Hi there, my name is Orrin. I make web projects using HTML5, CSS3 &amp; JavaScript.</h2>
-                <img src="images/HTML5_Logo.png" alt="The text HTML5 above an HTML5 Logo.">
-                <img src="images/computer.webp" alt="Code on a computer" width="640" height="426">
-            </section>
-
-            <section id="about">
+                <h2>- Home -</h2>
+                <!--<img src="HTML5_Logo.png" alt="The text HTML5 above an HTML5 Logo.">-->
+                <img src="computerbg.webp" alt="Code on a computer" width="640" height="426">
+                <h3>Hi, I'm Orrin, your next web developer!</h3>
                 <p>
                     I'm a self-taught developer who taps into the power of HTML5, CSS3 and JavaScript
                     to create fascinating UIs with amazing functionality. I feel like I'm on top of the 
-                    world when I code, so it's no wonder that it takes up most of my time. I also have
-                    considerable experience with Python, which I learned as a freshman in college, but 
-                    I'm more apt to using the three technologies listed above. Though I am now a sophomore,
+                    world when I code, so it's no wonder that it takes up most of my time!
+                </p>
+                <p>
+                    I'm also a college student majoring in Web and App Development. I chose to pursue
+                    this after graduating from a coding bootcamp the summer before my first college semester. 
+                    In college, they started us learning Python, of which I have considerable experience in.
+                    However, I'm more apt to using the three technologies previously listed above, and
                     I continue to level up my coding skills, both in and out of the classroom.
                 </p>
+
+                <div class="skills">
+                    <h3>My Skills</h3>
+                    <div class="skill-icons">
+                        <i class="fab fa-html5"></i>
+                        <i class="fab fa-css3-alt"></i>
+                        <i class="fab fa-js"></i>
+                        <i class="fab fa-python"></i>
+                    </div>
+                </div>
             </section>
 
             <section id="portfolio">
-                <div class="html-css">
-                    <h3>HTML5 &amp; CSS3</h3>
-                    <hr>
-                    <!--Put projects here-->
-                </div>
+                <h2>- Portfolio -</h2>
+
+                <h3>HTML5, CSS3, JavaScript Projects</h3>
                 <div class="html-css-js">
-                    <h3>HTML5, CSS3, JavaScript</h3>
-                    <hr>
                     <!--Put projects here-->
+                    <div class="project">
+                        Simple Calculator
+                        <hr>
+                        <p class="project-description">
+                            This is a simple calculator made with 
+                            HTML5, CSS3, and JavaScript. User can
+                            perform simple calculations with this 
+                            calculator.
+                        </p>
+                        <div class="site-links">
+                            <a href="#" target="_blank">See Site</a>
+                            <a href="#" target="_blank">See Code</a>
+                        </div>
+                    </div>
+                    <div class="project">
+                        To Do List 
+                        <hr>
+                        <p class="project-description">
+                            This is a to do list made with HTML5,
+                            CSS3, and JavaScript. User can create a task,
+                            complete or remove the task, and view the 
+                            total number of tasks completed.
+                        </p>
+                        <div class="site-links">
+                            <a href="#" target="_blank">See Site</a>
+                            <a href="#" target="_blank">See Code</a>
+                        </div>
+                    </div>
+                    <div class="project">
+                        Sorting Hat
+                        <hr>
+                        <p class="project-description">
+                            This is a sorting hat made with HTML5,
+                            CSS3, and JavaScript.
+                            Like the sorting hat in the Harry Potter Series,
+                            a user can input some commands and be sorted into 
+                            their own Hogwarts House.
+                        </p>
+                        <div class="site-links">
+                            <a href="#" target="_blank">See Site</a>
+                            <a href="#" target="_blank">See Code</a>
+                        </div>
+                    </div>
+                    <div class="project">
+                        Ollivander's Wand Shop
+                        <hr>
+                        <p class="project-description">
+                            This is Ollivander's Wand Shop made with HTML5,
+                            CSS3, and JavaScript.
+                            Like Ollivander's Wand Shop in the Harry Potter Series,
+                            a user can input some commands and find a wand that 
+                            suits them.
+                        </p>
+                        <div class="site-links">
+                            <a href="#" target="_blank">See Site</a>
+                            <a href="#" target="_blank">See Code</a>
+                        </div>
+                    </div>
+                    <div class="project">
+                        Coffee Shop
+                        <hr>
+                        <p class="project-description">
+                            This is a coffee shop made with HTML5,
+                            CSS3, and JavaScript.
+                            A user can input some commands and purchase breakfast.
+                        </p>
+                        <div class="site-links">
+                            <a href="#" target="_blank">See Site</a>
+                            <a href="#" target="_blank">See Code</a>
+                        </div>
+                    </div>
+                    <div class="project">
+                        Basketball Team
+                        <hr>
+                        <p class="project-description">
+                            This is a basketball team draft made with HTML5,
+                            CSS3, and JavaScript.
+                            Like any recruiting sports team, one has to reach
+                            certain requirements, and a user can see if they
+                            have what it takes to join the basketball team.
+                        </p>
+                        <div class="site-links">
+                            <a href="#" target="_blank">See Site</a>
+                            <a href="#" target="_blank">See Code</a>
+                        </div>
+                    </div>
                 </div>
+
+                <h3>Python Projects</h3>
                 <div class="python">
-                    <h3>Python</h3>
-                    <hr>
-                    <!--Put projects here-->
+                    <div class="project">
+                        Captain Jack's Gold
+                        <hr>
+                        <p class="project-description">
+                            This features the calculations that determine
+                            how much gold each pirate in Captain Jack's 
+                            crew receives after their adventures on the 
+                            high seas, using Python.
+                        </p>
+                        <div class="site-links">
+                            <a href="#" target="_blank">See Code</a>
+                        </div>
+                    </div>
+                    <div class="project">
+                        Time of Day
+                        <hr>
+                        <p class="project-description">
+                            With the help of the Python Turtle module,
+                            a scene is sketched on a blank canvas. The 
+                            time of day shifts according to a user's 
+                            input.
+                        </p>
+                        <div class="site-links">
+                            <a href="#" target="_blank">See Code</a>
+                        </div>
+                    </div>
+                    <div class="project">
+                        Human Pyramid
+                        <hr>
+                        <p class="project-description">
+                            Using Python, this calculates the total weight of each person
+                            in a human pyramid, including the weight that they
+                            are carrying.
+                        </p>
+                        <div class="site-links">
+                            <a href="#" target="_blank">See Code</a>
+                        </div>
+                    </div>
+                    <div class="project">
+                        Book Recommendations
+                        <hr>
+                        <p class="project-description">
+                            This is a book recommendations Python program that 
+                            recommends books according to a character's interests.
+                        </p>
+                        <div class="site-links">
+                            <a href="#" target="_blank">See Code</a>
+                        </div>
+                    </div>
+                    <div class="project">
+                        Coffee Vending Machine
+                        <hr>
+                        <p class="project-description">
+                            Coffee Vending Machines are considered vintage now,
+                            but the way that they work is still very interesting.
+                            This Python program focuses on the functionality of 
+                            a coffee vending machine using Object-oriented programming 
+                            concepts.
+                        </p>
+                        <div class="site-links">
+                            <a href="#" target="_blank">See Code</a>
+                        </div>
+                    </div>
+                    <div class="project">
+                        Payroll
+                        <hr>
+                        <p class="project-description">
+                            Employees used to be paid according to a payroll,
+                            and this Python program replicates that process.
+                        </p>
+                        <div class="site-links">
+                            <a href="#" target="_blank">See Code</a>
+                        </div>
+                    </div>
+                    
                 </div>
             </section>
 
             <section id="contact">
-
+                <h2>- Contact -</h2>
+                <p>
+                    Email: orrin@someemail.com<br>
+                    Phone: (###) ###-####<br>
+                    <a href="#" target="_blank">My Resume</a>
+                </p>
+                <div class="contact-icons">
+                    <i class="fab fa-instagram-square"></i>
+                    <i class="fab fa-facebook-square"></i>
+                </div>
             </section>
 
             <!--<h1>Hello, good sir!</h1>-->
         </main>
         <footer>
-            <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet sunt nesciunt minima, rerum commodi totam dolore repellendus sequi laboriosam quod!
-            </p>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <div class="very-bottom">
+                <p>Orrin H. &copy;</p>
+                <p>August 23, 2020</p>
+            </div>
         </footer>
     </body>
 </html>
