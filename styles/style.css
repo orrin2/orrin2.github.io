@@ -65,6 +65,13 @@ section {
 }
 
 /*Home styles*/
+section#home {
+    background-image: url("../images/computer.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
 section#home .skills {
     text-align: center;
     margin: auto;
